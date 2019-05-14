@@ -35,7 +35,7 @@ def bulk_tweet_shortener (tweet_array)
   end
 
 def selective_tweet_shortener (tweet_array)
-  tweet_array.collect do |tweet|
+  tweet_array.each do |tweet|
   if tweet.length <140
     tweet
   else
