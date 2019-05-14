@@ -49,7 +49,7 @@ truncated_tweet = String.new
   elsif word_substituter(tweet).length < 140
     word_substituter(tweet)
   else
-    truncated_tweet = word_substituter(tweet)[0..139]
+    truncated_tweet = word_substituter(tweet)[0..136]
     truncated_tweet << ("...")
   end
 end
