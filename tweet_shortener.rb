@@ -11,6 +11,7 @@ substitutes = {
   "you" => "u",
   "at" => "@",
   "and" => "&"
+  "For" => "4"
 }
 substitutes
 end
