@@ -10,7 +10,7 @@ substitutes = {
   "be" => "b",
   "you" => "u",
   "at" => "@",
-  "and" => "&"
+  "and" => "&",
   "For" => "4"
 }
 substitutes
