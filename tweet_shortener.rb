@@ -1,5 +1,5 @@
 def dictionary
-substitutes = Hash.new 
+substitutes = Hash.new
 substitutes = {
   "hello" => "hi",
   "to" => "2",
@@ -25,5 +25,4 @@ else
 end
 end
 tweet_array.join(" ")
-end  
-
+end
